@@ -3,7 +3,7 @@ import random
 import string
 
 print(
-  "WARNING FOR BEST USE:\nOnly use this program without internet access, and store \nthese keys on a local encrypted password manager!"
+  "Optional:\n - Use this tool offline\n - Store the keys encrypted"
 )
 length = int(input('\nKey Length: '))
 amount = int(input('\nNumber of Keys: '))
@@ -17,5 +17,5 @@ while count <= amount:
   all = lower + upper + num + symbols
   temp = random.sample(all, length)
   password = "".join(temp)
-  print(password + "\n")
+  print(password)
   count = count + 1
