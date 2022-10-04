@@ -17,7 +17,7 @@ import string
 print("Optional:\n - Use this tool offline\n - Store the keys encrypted")
 
 # Makes the user input the length of each key
-length = int(input('\nKey Length: '))
+length = int(input('\nKey Length (Max 94): '))
 
 # Makes the user input the number of keys
 amount = int(input('\nNumber of Keys: '))
