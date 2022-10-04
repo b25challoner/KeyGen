@@ -8,7 +8,6 @@
 
 # This program generates random strings or "keys", and outputs them to the console or a text file that will be created or overwritten within the same directory as "main.py". Each key outputted will be seperated via a new line. These keys can be used as passwords or really anything, but cannot used as encryption/decryption keys that are 128-bit or above, as the modules limit the length of the newly created keys
 
-
 # Imports the modules required for the program
 import random
 import string
